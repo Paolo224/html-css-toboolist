@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(230, 228, 228);
+}
+
+body{
+    background-color: rgb(226, 226, 226);
 }
 
 .top-part{
@@ -26,4 +29,36 @@ header h1{
     font-weight: 700;
     vertical-align: 1.6rem;
     background-color: white;
+}
+
+main{
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    margin-top: 3rem;
+    border-radius: .5rem .5rem 0rem 0rem ;
+}
+
+main section.riquadro-bottoni{
+    padding-left: 3rem ;
+    padding-top: 1rem ;
+    padding-bottom: .8rem;
+}
+
+#bottom-blu{
+    background-color: rgb(31, 182, 237);
+    border-radius: .5rem;
+    color: white;
+    border: none;
+    width: 5rem;
+    height: 1.8rem;
+}
+
+#bottom-transparent{
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    border: 1px rgb(200, 200, 200) solid;
+    color: rgb(200, 200, 200);
+    width: 6rem;
+    height: 1.8rem;
 }
