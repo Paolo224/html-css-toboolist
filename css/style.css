@@ -7,6 +7,7 @@
 
 body{
     background-color: rgb(226, 226, 226);
+    margin-bottom: 2rem;
 }
 
 header img{
@@ -49,7 +50,30 @@ h2{
 }
 
 span{
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: top;
+}
+
+#casella-rossa{
+    border: 2px red solid;
+    border-radius: 100%;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+#casella-verde{
+    border: 2px rgb(0, 255, 85) solid;
+    border-radius: 100%;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+div{
+    border-radius: .9rem;
+    color: white;
+    border: none;
+    display: inline;
+    padding: .5rem 1rem .5rem;
+    font-size: .6rem;
 }
 
 li{
@@ -80,6 +104,30 @@ ul{
     color: rgb(200, 200, 200);
     width: 6rem;
     height: 1.8rem;
+}
+
+#viola{
+    background-color: violet;
+}
+
+#verde{
+    background-color: green;
+}
+
+#arancione{
+    background-color: orange;
+}
+
+#rosa{
+    background-color: palevioletred;
+}
+
+#lime{
+    background-color: greenyellow;
+}
+
+#celeste{
+    background-color: rgb(31, 182, 237);
 }
 
 .top-part{
